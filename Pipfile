@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-cors = "*"
+psycopg2 = "*"
+flask-sqlalchemy = "*"
+python-dotenv = "*"
+flask-migrate = "*"
+flask-bcrypt = "*"
+flask-limiter = "*"
+flask-caching = "*"
+flask-wtf = "*"
+reportlab = "*"
+"pdfminer.six" = "*"
+pymupdf = "*"
+pyjwt = "*"
+flask-talisman = "*"
+
+[dev-packages]
+pytest = "*"
+autopep8 = "*"
+pylint = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.12"
